@@ -34,20 +34,16 @@
     <tr>
       <td align="center" valign="middle">
         <a href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
-          <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:450px" /></a>
+          <img src="./media/sponsor/wangyi.png" style="margin: 0 auto;width:450px" /></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://mp.weixin.qq.com/s/uXgGt66Df3JC4GM7d0LlZg" target="_blank">
-          <img src="https://imgkr.cn-bj.ufileos.com/75fef802-16f0-4e0b-9d6f-a9173f24a40f.png" style="margin: 0 auto;width:450px" /></a>
-      </td>        
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
         <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=javaguidegithub&utm_source=weixinlyw">
-          <img src="./media/sponsor/lagou.jpeg" style="margin: 0 auto;width:450px" /></a>    
+          <img src="./media/sponsor/lagou.jpeg" style="margin: 0 auto;width:450px" /></a>   
+      </td>        
     </tr>
   </tbody>
 </table>
+
 
 
 
@@ -76,7 +72,7 @@
         - [MyBatis](#mybatis)
     - [认证授权(JWT、SSO)](#认证授权)
     - [分布式](#分布式)
-        - [Elasticsearch(分布式搜索引擎)](#elasticsearch分布式搜索引擎)
+        - [分布式搜索引擎](#分布式搜索引擎)
         - [RPC](#rpc)
         - [消息队列](#消息队列)
         - [API 网关](#api-网关)
@@ -219,6 +215,7 @@
 
 ### Redis
 
+* [Redis前置菜-关于缓存的一些概念](docs/database/Redis/some-concepts-of-caching.md)
 * [Redis 常见问题总结](docs/database/Redis/redis-all.md)
 * **Redis 系列文章合集：**
   1. 数据结构和算法 ：[5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)、[跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)、[神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)、[亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)、[GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
@@ -269,11 +266,13 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 [分布式相关概念入门](docs/system-design/website-architecture/分布式.md)
 
-#### Elasticsearch(分布式搜索引擎)
+#### 分布式搜索引擎
 
 提高搜索效率。常见于电商购物网站的商品搜索于分类。
 
-代办......
+比较常用的是 Elasticsearch 和 Solr。
+
+代办。
 
 #### RPC
 
@@ -322,9 +321,9 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 > 前两篇文章可能有内容重合部分，推荐都看一遍。
 
-1. [【入门】ZooKeeper 相关概念总结](docs/system-design/framework/ZooKeeper.md)
-2. [【进阶】Zookeeper 原理简单入门！](docs/system-design/framework/ZooKeeper-plus.md)
-3. [【拓展】ZooKeeper 数据模型和常见命令](docs/system-design/framework/ZooKeeper数据模型和常见命令.md)
+1. [【入门】ZooKeeper 相关概念总结 01](docs/system-design/framework/zookeeper-intro.md)
+2. [【进阶】ZooKeeper 相关概念总结 02](docs/system-design/framework/zookeeper-plus.md)
+3. [【实战】ZooKeeper 实战](docs/system-design/framework/zookeeper-in-action.md)
 
 #### 其他
 
@@ -448,7 +447,7 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 
 ### 联系我
 
-![个人微信](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/wechat3.jpeg)
+![个人微信](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/wechat3.jpeg)
 
 ### Contributor
 
@@ -513,6 +512,6 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 
 **Java工程师必备学习资源:** 一些Java工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。 
 
-![我的公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/167598cd2e17b8ec.png)
+![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
 
 
