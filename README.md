@@ -34,17 +34,21 @@
     <tr>
       <td align="center" valign="middle">
         <a href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
-          <img src="./media/sponsor/wangyi.png" style="margin: 0 auto;width:450px" /></a>
+          <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/wangyi.png" style="margin: 0 auto;width:450px" /></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=javaguidegithub&utm_source=weixinlyw">
-          <img src="./media/sponsor/lagou.jpeg" style="margin: 0 auto;width:450px" /></a>   
+        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=koushuang&utm_source=weixinlyw">
+          <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/lagou-new.jpeg" style="margin: 0 auto;width:450px" /></a>   
       </td>        
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://t.1yb.co/3tWM">
+          <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/image-20200817202119215.png" style="margin: 0 auto;width:450px" /></a>
+      </td>       
     </tr>
   </tbody>
 </table>
-
-
 
 
 ## 目录
@@ -113,6 +117,7 @@
 1. [枚举](docs/java/basic/用好Java中的枚举真的没有那么简单.md) （很重要的一个数据结构，用好枚举真的没有那么简单！）
 2. [Java 常见关键字总结：final、static、this、super!](docs/java/basic/final,static,this,super.md)
 3. [什么是反射机制?反射机制的应用场景有哪些?](docs/java/basic/reflection.md)
+4. [代理模式详解：静态代理+JDK/CGLIB 动态代理实战（动态代理和静态代理的区别？JDK动态代理 和 CGLIB 动态代理的区别？）](docs/java/basic/java-proxy.md)
 
 **其他：**
 
@@ -215,7 +220,7 @@
 
 ### Redis
 
-* [Redis前置菜-关于缓存的一些概念](docs/database/Redis/some-concepts-of-caching.md)
+* [关于缓存的一些重要概念(Redis前置菜)](docs/database/Redis/some-concepts-of-caching.md)
 * [Redis 常见问题总结](docs/database/Redis/redis-all.md)
 * **Redis 系列文章合集：**
   1. 数据结构和算法 ：[5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)、[跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)、[神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)、[亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)、[GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
@@ -390,8 +395,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 1. [Java学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
 2. [Java培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 3. [新手学习Java，有哪些Java相关的博客，专栏，和技术学习网站推荐？](docs/questions/java-learning-website-blog.md)
-4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data)
-5. [Java 后台开发/大数据？你需要了解这些东西！](https://articles.zsxq.com/id_wto1iwd5g72o.html)（知识星球）
+4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data.md)
 
 ## 资源
 
@@ -444,6 +448,8 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 1. 笔记内容大多是手敲，所以难免会有笔误，你可以帮我找错别字。
 2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。
+
+> 如果要提 issue/question 的话，强烈推荐阅读 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)、[《如何向开源社区提问题》](https://github.com/seajs/seajs/issues/545) 和 [《如何有效地报告 Bug》](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)、[《如何向开源项目提交无法解答的问题》](https://zhuanlan.zhihu.com/p/25795393)。
 
 ### 联系我
 
