@@ -1,7 +1,5 @@
 > 本文首更于[《从零开始手把手教你实现一个简单的RPC框架》](https://t.zsxq.com/iIUv7Mn)  。
 
-
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -154,7 +152,7 @@ after method send()
 
 1. **loader** :类加载器，用于加载代理对象。
 2. **interfaces** : 被代理类实现的一些接口；
-3. **h** : 实现了 `InvocationHandle`r 接口的对象；
+3. **h** : 实现了 `InvocationHandler` 接口的对象；
 
 要实现动态代理的话，还必须需要实现`InvocationHandler` 来自定义处理逻辑。 当我们的动态代理对象调用一个方法时候，这个方法的调用就会被转发到实现`InvocationHandler` 接口类的 `invoke` 方法来调用。
 
